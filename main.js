@@ -19,7 +19,7 @@ function submit2(questionTwo) {
         mensaje.innerHTML = userAnswerTwo + " es la duración del programa";
         } else {
             var mensaje = document.getElementById("wrongAnswersText");
-            mensaje.innerHTML = userAnswerTwo + " no es la duración del programa"
+            mensaje.innerHTML = userAnswerTwo + " no es la duración del programa";
         }
 }
 function submit3(questionThree) {
@@ -29,6 +29,16 @@ function submit3(questionThree) {
         mensaje.innerHTML = "Laboratoria " + userAnswerThree + " es online";
     } else {
         var mensaje = document.getElementById("wrongAnswersText");
-        mensaje.innerHTML = "Laboratoria no es online. Es presencial"
+        mensaje.innerHTML = "Laboratoria no es online. Es presencial";
+    }
+}
+function submit4(questionFour) {
+    var userAnswerFour = document.getElementById("q4").value;
+    if (userAnswerFour.toLowerCase() == "peru") {
+        var mensaje = document.getElementById("rightAnswersText");
+        mensaje.innerHTML = "Laboratoria comenzó en Peru";
+    } else {
+        var mensaje = document.getElementById("wrongAnswersText");
+        mensaje.innerHTML = "Laboratoria comenzó en Peru";
     }
 }
