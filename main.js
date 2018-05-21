@@ -22,3 +22,13 @@ function submit2(questionTwo) {
             mensaje.innerHTML = userAnswerTwo + " no es la duración del programa"
         }
 }
+function submit3(questionThree) {
+    var userAnswerThree = document.getElementById("q3").value;
+    if (userAnswerThree.toLowerCase() == "no") {
+        var mensaje = document.getElementById("rightAnswersText");
+        mensaje.innerHTML = "Laboratoria " + userAnswerThree + " es online";
+    } else {
+        var mensaje = document.getElementById("wrongAnswersText");
+        mensaje.innerHTML = "Laboratoria no es online. Es presencial"
+    }
+}
