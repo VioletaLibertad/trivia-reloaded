@@ -9,29 +9,31 @@
     <script src="main.js"></script>
 </head>
 <body>
-    <div>
-        <h1>Trivia Laboratoria</h1>
-    </div>
-    <div>
-        <p>Nombra un país en el que opere Laboratoria</p>
-        <input type="text" id="q1">
-        <button onclick="submit1()" id=questionOne>Enviar</button>
-    </div>
-    <div>
-        <p>Cuánto dura el Bootcamp?</p>
-        <input type="text" id="q2">
-        <button onclick="submit2()" id=questionTwo>Enviar</button>
-    </div>
-    <div>
-        <p>Laboratoria es online?</p>
-        <input type="text" id="q3">
-        <button onclick="submit3()" id=questionThree>Enviar</button>
+    <div id="questionsBox">
+        <div>
+           <h1>Trivia Laboratoria</h1>
+         </div>
+        <div>
+          <p>Nombra un país en el que opere Laboratoria</p>
+          <input type="text" id="q1">
+          <button onclick="submit1()" id=questionOne>Enviar</button>
         </div>
-    <div>
-        <p>En que país surgió Laboratoria?</p>
-        <input type="text" id="q4">
-        <button onclick="submit4()" id=questionFour>Enviar</button>
+        <div>
+         <p>Cuánto dura el Bootcamp?</p>
+         <input type="text" id="q2">
+         <button onclick="submit2()" id=questionTwo>Enviar</button>
+         </div>
+        <div>
+         <p>Laboratoria es online?</p>
+         <input type="text" id="q3">
+         <button onclick="submit3()" id=questionThree>Enviar</button>
         </div>
+        <div>
+         <p>En que país surgió Laboratoria?</p>
+          <input type="text" id="q4">
+           <button onclick="submit4()" id=questionFour>Enviar</button>
+        </div>
+    </div>
     <div id="scoreBoard">
         <div id="rightAnswers">
             <h3>Respuestas correctas</h3>
@@ -44,8 +46,4 @@
             </div>
         </div>
     </div>
-    <div id="warningBlock">
-        <p id="warningMessage"></p>
-    </div>
-</body>
 </html>

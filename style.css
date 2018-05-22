@@ -1,17 +1,14 @@
-#rightAnswers {
-    background-color: rgb(136, 218, 210);
-    width: 50%;
-    float: left;
-    height: 100vh;
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: gainsboro;
 }
-
-#wrongAnswers {
-    background-color: rgb(233, 150, 150);
-    width: 50%;
-    float: left;
-    height: 100vh;
-}
-
-.answer {
-    color: white;
+#upperBar{
+    margin-block-end: 15em;
+    margin-left: 15em;
+    margin-right: 15em;
+    margin-block-start: 15em;
+    background-color: aquamarine;
+    width: 50em;
+    height: 30em;
+    text-align: center;
 }
