@@ -5,3 +5,9 @@ body{
 #questionsBox{
     background-color: aquamarine;
 }
+#rightAnswers{
+    background-color: lightgreen;
+}
+#wrongAnswers{
+    background-color: lightcoral;
+}
